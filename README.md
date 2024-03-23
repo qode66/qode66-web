@@ -1,2 +1,2 @@
-# web-qode66
+# qode66-web
 Portfoli Qode66
