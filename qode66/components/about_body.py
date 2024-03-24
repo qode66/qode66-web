@@ -106,6 +106,7 @@ def about_body() -> rx.Component:
                  Una ànima aventurera amb una passió desbordant per la vida a l'aire lliure i tot el que la naturalesa té per a oferir. Quan no estic solcant senderes a la recerca de noves aventures, em trobes explorant coves i cavernes com un espeleòleg intrèpid.
                 """,
                 style=styles.about_section1_text,
+                color=Color.BACKGROUND2.value,
             ),
             rx.text(
                 f"""
