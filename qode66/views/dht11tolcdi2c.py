@@ -3,16 +3,16 @@ import qode66.styles.styles as styles
 
 from qode66.styles.colors import Color as Color
 
-def curso_scratch() -> rx.Component:
+def dht11tolcdi2c() -> rx.Component:
     return rx.container(
         rx.flex(
             rx.flex(
                 rx.heading(
-                    "Tutorial Scratch for Arduino S4A",
+                    "Monitoratge ambiental amb DHT11 i LCD 16x2",
                     style=styles.portfolio_heading,
                     ),
                 rx.text(
-                    "Scratch for Arduino S4A és un entorn senzill i divertit per als alumnes mes joves, que els inicia en aqueix camí i els introdueix a els conceptes inherents a la programació estructurada d'una manera que sembla un joc, però amb moltes mes profunditat del que a primera vista es percep.",
+                    "El projecte que presentem consisteix en la implementació d'un sistema de monitoratge ambiental utilitzant un sensor DHT11 i una pantalla LCD 16x2. El sensor DHT11 és capaç de mesurar la temperatura i la humitat de l'ambient en el qual està instal·lat, mentre que la pantalla LCD 16x2 s'utilitza per a visualitzar les dades obtingudes pel sensor.",
                     style=styles.portfolio_text,
                 ),
                 rx.card(
@@ -24,7 +24,7 @@ def curso_scratch() -> rx.Component:
                             align="center",
                             
                         ),
-                        href="https://github.com/qode66/arduino-tutorial",
+                        href="https://github.com/cartrotech/DHT11-to-LCD16x02",
                         is_external=True,
                     ),
                     background=Color.TEXTCOLOR.value,
@@ -34,11 +34,10 @@ def curso_scratch() -> rx.Component:
                 direction="column",
                 justify="center",
                 align="center",
-                padding_bottom="10px",
             ),
             rx.flex(
                 rx.image(
-                    src="/images/arduino-scratch.png",
+                    src="/images/DHT11toLCDI2C.png",
                     width="300px",
                     height="auto",
                     ),
@@ -49,6 +48,7 @@ def curso_scratch() -> rx.Component:
             ),
             direction="row",
             background=Color.BACKGROUND2.value,
+            padding_bottom="10px",
 
         ),
         margin_top="10px",

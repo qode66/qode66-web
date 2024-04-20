@@ -4,6 +4,7 @@ from qode66.views.curso_scratch import curso_scratch
 from qode66.views.curso_arduino import curso_arduino
 from qode66.views.refprogard import refprogard
 from qode66.views.guia_markdown import guiamarkdown
+from qode66.views.dht11tolcdi2c import dht11tolcdi2c
 from qode66.styles.colors import Color as Color
 
 def portfolio_body() -> rx.Component:
@@ -31,6 +32,15 @@ def portfolio_body() -> rx.Component:
                 curso_arduino(),
                 refprogard(),
                 guiamarkdown(),
+            ),
+            rx.section(
+                rx.heading(
+                    "Arduino",
+                    color=Color.ACCENT1.value,
+                    font_size="32px",
+                    margin="20px",
+                ),
+                dht11tolcdi2c(),
             ),
         ),
     )
