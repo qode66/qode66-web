@@ -12,7 +12,7 @@ def home_body() -> rx.Component:
                     rx.text.strong("captivar,", color="#3ece56"),
                     " un lloc per ",
                     rx.text.strong("connectar.", color="#3ece56"),
-                    class_name="animate__animated animate__bounceInLeft",
+                    # class_name="animate__animated animate__bounceInLeft",
                     font_family=Font.TITLE.value,
                     font_weight=Weight.BOLD.value,
                     align="center",
