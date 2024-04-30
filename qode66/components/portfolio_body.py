@@ -23,6 +23,15 @@ def portfolio_body() -> rx.Component:
             ),
             rx.section(
                 rx.heading(
+                    "Arduino",
+                    color=Color.ACCENT1.value,
+                    font_size="32px",
+                    margin="20px",
+                ),
+                dht11tolcdi2c(),
+            ),
+            rx.section(
+                rx.heading(
                     "Traduccions",
                     color=Color.ACCENT1.value,
                     font_size="32px",
@@ -32,15 +41,6 @@ def portfolio_body() -> rx.Component:
                 curso_arduino(),
                 refprogard(),
                 guiamarkdown(),
-            ),
-            rx.section(
-                rx.heading(
-                    "Arduino",
-                    color=Color.ACCENT1.value,
-                    font_size="32px",
-                    margin="20px",
-                ),
-                dht11tolcdi2c(),
             ),
         ),
     )
