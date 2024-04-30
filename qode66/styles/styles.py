@@ -8,7 +8,7 @@ STYLESHEETS = [
 
     "https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap",
     "https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap",
-    # "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
 ]
 
 BASE_STYLE = {
